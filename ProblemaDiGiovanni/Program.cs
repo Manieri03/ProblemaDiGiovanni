@@ -34,7 +34,7 @@ namespace ProblemaDiGiovanni
                             i++;
                         } while (line[i] != '1');
 
-                        string n = line.Substring(i + 1, lunghezzanumero);
+                        string n = line.Substring(i + 1, lunghezzanumero );
                         int n1 = int.Parse(n);
 
                         string numero = line.Substring(i + lunghezzanumero + 1, n1);
